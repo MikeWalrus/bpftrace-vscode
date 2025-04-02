@@ -62,7 +62,7 @@
         },
         {
           "name": "meta.probe",
-          "match": "\\b(hardware|interval|iter|kfunc|kretfunc|kprobe|kretprobe|profile|software|tracepoint|uprobe|uretprobe|usdt|watchpoint|asyncwatchpoint)(:)([^,]+)[\n,]",
+          "match": "\\b(hardware|interval|iter|kfunc|kretfunc|fentry|fexit|kprobe|kretprobe|profile|software|tracepoint|uprobe|uretprobe|usdt|watchpoint|asyncwatchpoint)(:)([^,]+)[\n,]",
           "captures": {
             "1": {
               "name": "storage.type"
